@@ -2,12 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <!-- Makes the page scale correctly on phones, tablets, and other devices. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Provides a short description of the page for search engines and previews. -->
+    <meta name="description" content="A simple Hello World webpage created for a web development lab.">
+
+    <!-- Identifies the author of the webpage. -->
+    <meta name="Carson Kahila" content="Student">
+
     <title>Hello World</title>
 </head>
 
 <body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to my first webpage, I hope you are having a wonderful day.</p>
+    <header>
+        <h1>Hello, World!</h1>
+        <p>Welcome to my first deployed webpage.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>About This Project</h2>
+            <p>
+                This page was created using HTML5, Git, GitHub Codespaces,
+                and Netlify.
+            </p>
+        </section>
+
+        <section>
+            <h2>What I Practiced</h2>
+            <ul>
+                <li>Writing semantic HTML5</li>
+                <li>Tracking changes with Git</li>
+                <li>Pushing a project to GitHub</li>
+                <li>Deploying a website with Netlify</li>
+            </ul>
+        </section>
+
+        <figure>
+            <img
+                src="hello-world.svg"
+                alt="A simple illustration of a globe with the words Hello World"
+                width="400"
+                height="240"
+            >
+            <figcaption>A Hello World illustration included with this project.</figcaption>
+        </figure>
+    </main>
+
+    <footer>
+        <p>Created for my web development Hello World lab.</p>
+    </footer>
 </body>
 </html>

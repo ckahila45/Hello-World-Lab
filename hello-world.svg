@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="240" viewBox="0 0 400 240" role="img" aria-labelledby="title desc">
+  <title id="title">Hello World illustration</title>
+  <desc id="desc">A globe icon with Hello World text.</desc>
+  <rect width="400" height="240" fill="white"/>
+  <circle cx="115" cy="120" r="70" fill="none" stroke="black" stroke-width="4"/>
+  <ellipse cx="115" cy="120" rx="30" ry="70" fill="none" stroke="black" stroke-width="3"/>
+  <line x1="45" y1="120" x2="185" y2="120" stroke="black" stroke-width="3"/>
+  <path d="M58 82 C90 98 140 98 172 82" fill="none" stroke="black" stroke-width="3"/>
+  <path d="M58 158 C90 142 140 142 172 158" fill="none" stroke="black" stroke-width="3"/>
+  <text x="215" y="110" font-family="Arial, sans-serif" font-size="28">Hello</text>
+  <text x="215" y="145" font-family="Arial, sans-serif" font-size="28">World!</text>
+</svg>
